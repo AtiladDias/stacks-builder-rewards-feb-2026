@@ -1,0 +1,18 @@
+{
+  "project": {
+    "name": "stacks-poa",
+    "description": "Proof-of-Action smart contract for Stacks Builder Rewards (Feb 2026)",
+    "authors": ["Atila Dias"],
+    "telemetry": true
+  },
+  "contracts": {
+    "proof-of-action": {
+      "path": "contracts/proof-of-action.clar",
+      "clarity_version": 2,
+      "epoch": "2.4"
+    }
+  },
+  "repl": {
+    "costs_version": 2
+  }
+}
